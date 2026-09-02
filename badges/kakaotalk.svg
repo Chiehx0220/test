@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="124" height="34" viewBox="0 0 124 34">
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="40" viewBox="0 0 128 40">
 <defs>
-<clipPath id="c6"><rect x="0.75" y="0.75" width="122.5" height="32.5" rx="10"/></clipPath>
-<filter id="gl6" x="-50%" y="-50%" width="200%" height="200%">
-<feGaussianBlur stdDeviation="3" result="blur"/>
-<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
+<radialGradient id="gl6" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#FAE100" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#FAE100" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="c6"><rect x="0" y="0" width="128" height="40" rx="20.0"/></clipPath>
 <style>
-@keyframes pulse6{0%,100%{opacity:0.35}50%{opacity:0.85}}
-.glow6{animation:pulse6 2.6s ease-in-out infinite}
+@keyframes breathe6{0%,100%{opacity:0.5;transform:scale(0.94)}50%{opacity:1;transform:scale(1.08)}}
+.aura6{animation:breathe6 3s ease-in-out infinite;transform-origin:21px 20px}
 </style>
 </defs>
-<rect class="glow6" x="0.75" y="0.75" width="122.5" height="32.5" rx="10" fill="none" stroke="#FAE100" stroke-width="1.5" filter="url(#gl6)"/>
 <g clip-path="url(#c6)">
-<rect x="0" y="0" width="124" height="34" fill="#12141a"/>
-<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFB0lEQVR4nIWVe4hVVRTGf/u8zzxtpmnyQc6MMqV/CD00S0OypCZFiLSgUNQQgv4K1EwyLIMiqRAJiQLBMFCLyggDlf4wTTG0t0Q5MwbmY9RR78ycc89j71jnzgxDvhZc7uHstb+1vu9b+2zFDcL8w8Tc5imT8YSGdgW3Dy5dVBYnMOzTmp1+C0evh6Gu9XKgk/Guy6sKnrRtGo2BPAetK+uWAtsGZUOW0m9gn8lZ57dy7KYF4k7mOz4f2C7j8hhyPSJ5MFsKDoVlgeNDltCf5bwStrDpugWiTpa7ARstQ5imlU4dV1BA55BllTzHAcsGdMEAbSqM5BeX2RC2suqqAnE38xyXncoQ5Bm4PvT1KY4eCzhyOKCr0yEqWUVuWKtpbcuYen/MPXfH1NQY0jIoYeNCOWZF0Mq7wwUGTnCH43LIsRktWkvi7m+r2bqllu6/XXRW6XikRMLIcqBlYsripSU6Hu/HDMqpbMpJzJyqCewvtsRdfOxX83wWQ6oVG965hV07q7EtcN0Rgl8j0lQVPs1f2M/KVb24lhlicdBPma2ik7Qpw1HHpl60fvvtBj7bVkNVqIc7vmkY6I8sFjzXx+rVFwvG8lZp5oqPC32PepHgwMGQr3ZUEwSazECaK3Ij5qqiU4lsxLjKs8iVZorA18VewRAGrovSFksdNHMlySj44vNqkljxzLJ+Zs6KCoMO7A+5fEnRfmfKxrdGsWBRH92dNsd+CFj2Yondu0Kmz4g5fcrh++/CAmPmjAgZFKN5xFEW7VKgVLLo+sslCDV7vg5pasqoqtLs+SZkxZpeausMo8dlTGhLKZXkfCgmT0oZMzYl8A3v7a3CD0yBUbpiFXttiwaRqFnmuJyIMao4OJcuWvT0WJw5YzN2nLSi+P1nj5kPx0SRIkkUaaJQGB59LOLwoZCesxa2bQoMwRJgwXVEBhmvulpDQ5Pm4nm7KOK6YDuGOR0DjGrMwTG035Vw7pzD5CkJp/4tF2P65toGFj5bouuEw69HvQJDsIZ8cnLDJUsxKghNoeXxX1w8z3D8N7/4b27K2fJhHZcvW3TMH6CvpHhgRpnpU8vs2xty7EeP3kv1jGrQBSvBEKwkrpwbFXdzxHW4T3w4d8Fm+ZJmek4LC4MxqmDnuKZIFgBxXgwUlvIs5yTPRTIYPT7noy1nua0xLxhoQ79ItVdGVE7w6OacNa/3EtZp8kzhOAbXq4BLyLMASoeebwqGsianurZRs2Zdb4EhWCIxhoMWhu1JmUgSkzI8OC3i/U3nmTg5HdbxWiHMhJGYPnFSWuyRvYIhIXuVYqsyBpV0s8urYl4SVRY9H3ou2Cxb1Mz5MxZGq2Iihu8DG6qqNS0TMjrmDdDR0U9djSZJKuvSfZryp5cwzVEKU+5ibVpmtm1TVVwsOVw4b9F7waJcVky5N+G5xX3EUaVIY5Nm7JiUMWMy/MpdMAxeyCk/zWuqnSuOvPRb+Snq5mXHY5OYLeMnsz0QKZa8UGLpsivU1ozQSwzUFd9kWoZCcN0QygNsDtrYMfRuOKIu3gkCVsrzJ5/W0jI+46GZUdHhjfwY6lzAkwG+9MbztFKkVxWQiLtZ4bistz0CSRmifqPw3Mq3LE3YfDLhpfZ2Bq2+/qU/y/NYbzQzHAdLrsr/Myg6diqfA234Q6e84bex/Spm1+vK/IaX1TMHWGw0s4Fbhy77QSNLlsVBDNuuJOxqmMDla+H8ByeDTMG4kVq7AAAAAElFTkSuQmCC"/>
-<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">KakaoTalk</text>
+<rect x="0" y="0" width="128" height="40" fill="#0d0f14"/>
+<rect x="0" y="0" width="128" height="40" fill="#0d0f14" stroke="#22252c" stroke-width="1"/>
+<circle class="aura6" cx="21" cy="20" r="18" fill="url(#gl6)"/>
+<circle cx="21" cy="20" r="13" fill="#181b21"/>
+<image x="11" y="10" width="20" height="20" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFB0lEQVR4nIWVe4hVVRTGf/u8zzxtpmnyQc6MMqV/CD00S0OypCZFiLSgUNQQgv4K1EwyLIMiqRAJiQLBMFCLyggDlf4wTTG0t0Q5MwbmY9RR78ycc89j71jnzgxDvhZc7uHstb+1vu9b+2zFDcL8w8Tc5imT8YSGdgW3Dy5dVBYnMOzTmp1+C0evh6Gu9XKgk/Guy6sKnrRtGo2BPAetK+uWAtsGZUOW0m9gn8lZ57dy7KYF4k7mOz4f2C7j8hhyPSJ5MFsKDoVlgeNDltCf5bwStrDpugWiTpa7ARstQ5imlU4dV1BA55BllTzHAcsGdMEAbSqM5BeX2RC2suqqAnE38xyXncoQ5Bm4PvT1KY4eCzhyOKCr0yEqWUVuWKtpbcuYen/MPXfH1NQY0jIoYeNCOWZF0Mq7wwUGTnCH43LIsRktWkvi7m+r2bqllu6/XXRW6XikRMLIcqBlYsripSU6Hu/HDMqpbMpJzJyqCewvtsRdfOxX83wWQ6oVG965hV07q7EtcN0Rgl8j0lQVPs1f2M/KVb24lhlicdBPma2ik7Qpw1HHpl60fvvtBj7bVkNVqIc7vmkY6I8sFjzXx+rVFwvG8lZp5oqPC32PepHgwMGQr3ZUEwSazECaK3Ij5qqiU4lsxLjKs8iVZorA18VewRAGrovSFksdNHMlySj44vNqkljxzLJ+Zs6KCoMO7A+5fEnRfmfKxrdGsWBRH92dNsd+CFj2Yondu0Kmz4g5fcrh++/CAmPmjAgZFKN5xFEW7VKgVLLo+sslCDV7vg5pasqoqtLs+SZkxZpeausMo8dlTGhLKZXkfCgmT0oZMzYl8A3v7a3CD0yBUbpiFXttiwaRqFnmuJyIMao4OJcuWvT0WJw5YzN2nLSi+P1nj5kPx0SRIkkUaaJQGB59LOLwoZCesxa2bQoMwRJgwXVEBhmvulpDQ5Pm4nm7KOK6YDuGOR0DjGrMwTG035Vw7pzD5CkJp/4tF2P65toGFj5bouuEw69HvQJDsIZ8cnLDJUsxKghNoeXxX1w8z3D8N7/4b27K2fJhHZcvW3TMH6CvpHhgRpnpU8vs2xty7EeP3kv1jGrQBSvBEKwkrpwbFXdzxHW4T3w4d8Fm+ZJmek4LC4MxqmDnuKZIFgBxXgwUlvIs5yTPRTIYPT7noy1nua0xLxhoQ79ItVdGVE7w6OacNa/3EtZp8kzhOAbXq4BLyLMASoeebwqGsianurZRs2Zdb4EhWCIxhoMWhu1JmUgSkzI8OC3i/U3nmTg5HdbxWiHMhJGYPnFSWuyRvYIhIXuVYqsyBpV0s8urYl4SVRY9H3ou2Cxb1Mz5MxZGq2Iihu8DG6qqNS0TMjrmDdDR0U9djSZJKuvSfZryp5cwzVEKU+5ibVpmtm1TVVwsOVw4b9F7waJcVky5N+G5xX3EUaVIY5Nm7JiUMWMy/MpdMAxeyCk/zWuqnSuOvPRb+Snq5mXHY5OYLeMnsz0QKZa8UGLpsivU1ozQSwzUFd9kWoZCcN0QygNsDtrYMfRuOKIu3gkCVsrzJ5/W0jI+46GZUdHhjfwY6lzAkwG+9MbztFKkVxWQiLtZ4bistz0CSRmifqPw3Mq3LE3YfDLhpfZ2Bq2+/qU/y/NYbzQzHAdLrsr/Myg6diqfA234Q6e84bex/Spm1+vK/IaX1TMHWGw0s4Fbhy77QSNLlsVBDNuuJOxqmMDla+H8ByeDTMG4kVq7AAAAAElFTkSuQmCC"/>
+<text x="44" y="24.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e6e8eb">KakaoTalk</text>
 </g>
-<rect x="0.75" y="0.75" width="122.5" height="32.5" rx="10" fill="none" stroke="#FAE100" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="127" height="39" rx="19.5" fill="none" stroke="#FAE100" stroke-opacity="0.4" stroke-width="1"/>
 </svg>

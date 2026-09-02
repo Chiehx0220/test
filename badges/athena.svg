@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="103" height="34" viewBox="0 0 103 34">
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="40" viewBox="0 0 105 40">
 <defs>
-<clipPath id="c7"><rect x="0.75" y="0.75" width="101.5" height="32.5" rx="10"/></clipPath>
-<filter id="gl7" x="-50%" y="-50%" width="200%" height="200%">
-<feGaussianBlur stdDeviation="3" result="blur"/>
-<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
+<radialGradient id="gl7" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="c7"><rect x="0" y="0" width="105" height="40" rx="20.0"/></clipPath>
 <style>
-@keyframes pulse7{0%,100%{opacity:0.35}50%{opacity:0.85}}
-.glow7{animation:pulse7 2.6s ease-in-out infinite}
+@keyframes breathe7{0%,100%{opacity:0.5;transform:scale(0.94)}50%{opacity:1;transform:scale(1.08)}}
+.aura7{animation:breathe7 3s ease-in-out infinite;transform-origin:21px 20px}
 </style>
 </defs>
-<rect class="glow7" x="0.75" y="0.75" width="101.5" height="32.5" rx="10" fill="none" stroke="#7C3AED" stroke-width="1.5" filter="url(#gl7)"/>
 <g clip-path="url(#c7)">
-<rect x="0" y="0" width="103" height="34" fill="#12141a"/>
-<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEbklEQVR4nIVVbWxTVRh+3tPb29LiZrfb0oHZcIy6GBIIEmSZQ+0G6iBLGJtRNMYlGhMl4kTwIxsDCYm6mKhIUH4Qs2jC5h8/4g8SFw3TJf4ZbiND5nBOM4L20m6yfqy99x5zbj9o1zt9k6btec95nvd93ve8h/Af5vV6awDsBdDMOQ8QkT/jCgO4yjkfBPC5qqojy2GQ1aLf76/Sdb0LwB4iKuecWx8mAuc8CmCQc35UVdWL/0tQXl7ewhg7RUR35AOL36lkEnbZDiK2HNHroVDoZL6vYKeiKM8yxs4BKADXNA3r1t+N9sc7IEkydF0rIMjsdRPRB4qivGNJoCjKbrEBwIpiKYDowk083fE8unp64XKVwDD0IskEEWPskM/nO1hA4PF4KhljZwA4i05ljHMDicU4ttU1YP9Lr0EEbVUbscY5P6EoSkOOQJKkIwAqsIylUikEajfA7V6JeDyG7dubsGnzvdBSKcv9ROQA8FZNTY2D+Xy+agBty3WKrmu4raQUra37wA3DjFCSJNyzpQ6GYYiYLbMgorq5ubkg45y3E1GpNbhuFvVAZzfWB2rNYmcBXC6XCW4YPENUlIWwDiHRLitwUUS7LOPlw8fwwIM7kUwuFvhv3FBhcI7nXjiMyqrqHHl+FpzzRpFBYKk86f+E/S++gWDwISwuJsx1xtJNJyL+5fI41lYH0NLShseeeMay4ERUxoho1VJHMpnEI7vasPPh3Ugk4uaazWZDOBLOERgc2NO6D4wRtm6tx53rAtC04qIXXsnM4ds95djb/mQubVl24Pz5b9D3yceQZdmU7+ChHjTtaEYikYDb7cbGjVuga7olwVz+gojirtoN8PsroGsaJMmOqakr+OjDtzH75wx0PS1FaUlJTjJxR6rW1qRvpAXBVIH+Bscq/5rcYcYYvv5yALHYAiYnL2FoaBBO5woz06zu4kt2Os2ZtKSWUVHkbwschJzuYj0ai2JiYgyyXRb64eR7J/DD0Hewi//ZKBnh7+vXCto1gzksitxvGEYa0SymhKu/XjZvrIg+kVhEdCEGYgRmsyEWXcC7vUcxMzNt7hVAqZSGiyM/wWYrLCljrI+FQqFR8XBksxC3dPq3SVy4MAiHw4mVbhfKyjwwdCPnn58L4/fpKbOznE4nhn/8HpfGRmC32/PluaJp2leCkjPGujnnsTxmnD3zPkZHR+DxlKG+oRGpTAsK3R0OB/wVq03w8fExnD7VmxkZlP8+HAmHw/+YOYVCoZ8BvJrNQkQ2Px/Bse5ODAx8imBTMzZt3mZ2mPjU3deI1Wsq0X+uDz1dBxAJq+aZPO1Pq6o6kCnpLROPhZjn2e4Q/a5pugkmDv51fdb8FqMhHo/j2uwfkCQbGLsFbhjGF6qqPiqGcBGBMK/X+wqA40TkzBKJoScCywKlXzTKRZ0HLiLvBJAbXJaPvqIo9xPRcQD1RCRa2Wpbvk1wzt9UVbV/qcOSIGOyoig7iOgpAEHBu8R/k3M+TESfiW6JRCLzViD/AvpuBoUjwcl9AAAAAElFTkSuQmCC"/>
-<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">Athena</text>
+<rect x="0" y="0" width="105" height="40" fill="#0d0f14"/>
+<rect x="0" y="0" width="105" height="40" fill="#0d0f14" stroke="#22252c" stroke-width="1"/>
+<circle class="aura7" cx="21" cy="20" r="18" fill="url(#gl7)"/>
+<circle cx="21" cy="20" r="13" fill="#181b21"/>
+<image x="11" y="10" width="20" height="20" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEbklEQVR4nIVVbWxTVRh+3tPb29LiZrfb0oHZcIy6GBIIEmSZQ+0G6iBLGJtRNMYlGhMl4kTwIxsDCYm6mKhIUH4Qs2jC5h8/4g8SFw3TJf4ZbiND5nBOM4L20m6yfqy99x5zbj9o1zt9k6btec95nvd93ve8h/Af5vV6awDsBdDMOQ8QkT/jCgO4yjkfBPC5qqojy2GQ1aLf76/Sdb0LwB4iKuecWx8mAuc8CmCQc35UVdWL/0tQXl7ewhg7RUR35AOL36lkEnbZDiK2HNHroVDoZL6vYKeiKM8yxs4BKADXNA3r1t+N9sc7IEkydF0rIMjsdRPRB4qivGNJoCjKbrEBwIpiKYDowk083fE8unp64XKVwDD0IskEEWPskM/nO1hA4PF4KhljZwA4i05ljHMDicU4ttU1YP9Lr0EEbVUbscY5P6EoSkOOQJKkIwAqsIylUikEajfA7V6JeDyG7dubsGnzvdBSKcv9ROQA8FZNTY2D+Xy+agBty3WKrmu4raQUra37wA3DjFCSJNyzpQ6GYYiYLbMgorq5ubkg45y3E1GpNbhuFvVAZzfWB2rNYmcBXC6XCW4YPENUlIWwDiHRLitwUUS7LOPlw8fwwIM7kUwuFvhv3FBhcI7nXjiMyqrqHHl+FpzzRpFBYKk86f+E/S++gWDwISwuJsx1xtJNJyL+5fI41lYH0NLShseeeMay4ERUxoho1VJHMpnEI7vasPPh3Ugk4uaazWZDOBLOERgc2NO6D4wRtm6tx53rAtC04qIXXsnM4ds95djb/mQubVl24Pz5b9D3yceQZdmU7+ChHjTtaEYikYDb7cbGjVuga7olwVz+gojirtoN8PsroGsaJMmOqakr+OjDtzH75wx0PS1FaUlJTjJxR6rW1qRvpAXBVIH+Bscq/5rcYcYYvv5yALHYAiYnL2FoaBBO5woz06zu4kt2Os2ZtKSWUVHkbwschJzuYj0ai2JiYgyyXRb64eR7J/DD0Hewi//ZKBnh7+vXCto1gzksitxvGEYa0SymhKu/XjZvrIg+kVhEdCEGYgRmsyEWXcC7vUcxMzNt7hVAqZSGiyM/wWYrLCljrI+FQqFR8XBksxC3dPq3SVy4MAiHw4mVbhfKyjwwdCPnn58L4/fpKbOznE4nhn/8HpfGRmC32/PluaJp2leCkjPGujnnsTxmnD3zPkZHR+DxlKG+oRGpTAsK3R0OB/wVq03w8fExnD7VmxkZlP8+HAmHw/+YOYVCoZ8BvJrNQkQ2Px/Bse5ODAx8imBTMzZt3mZ2mPjU3deI1Wsq0X+uDz1dBxAJq+aZPO1Pq6o6kCnpLROPhZjn2e4Q/a5pugkmDv51fdb8FqMhHo/j2uwfkCQbGLsFbhjGF6qqPiqGcBGBMK/X+wqA40TkzBKJoScCywKlXzTKRZ0HLiLvBJAbXJaPvqIo9xPRcQD1RCRa2Wpbvk1wzt9UVbV/qcOSIGOyoig7iOgpAEHBu8R/k3M+TESfiW6JRCLzViD/AvpuBoUjwcl9AAAAAElFTkSuQmCC"/>
+<text x="44" y="24.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e6e8eb">Athena</text>
 </g>
-<rect x="0.75" y="0.75" width="101.5" height="32.5" rx="10" fill="none" stroke="#7C3AED" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="104" height="39" rx="19.5" fill="none" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1"/>
 </svg>

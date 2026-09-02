@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="103" height="34" viewBox="0 0 103 34">
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="40" viewBox="0 0 105 40">
 <defs>
-<clipPath id="c5"><rect x="0.75" y="0.75" width="101.5" height="32.5" rx="10"/></clipPath>
-<filter id="gl5" x="-50%" y="-50%" width="200%" height="200%">
-<feGaussianBlur stdDeviation="3" result="blur"/>
-<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
+<radialGradient id="gl5" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#FF4500" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#FF4500" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="c5"><rect x="0" y="0" width="105" height="40" rx="20.0"/></clipPath>
 <style>
-@keyframes pulse5{0%,100%{opacity:0.35}50%{opacity:0.85}}
-.glow5{animation:pulse5 2.6s ease-in-out infinite}
+@keyframes breathe5{0%,100%{opacity:0.5;transform:scale(0.94)}50%{opacity:1;transform:scale(1.08)}}
+.aura5{animation:breathe5 3s ease-in-out infinite;transform-origin:21px 20px}
 </style>
 </defs>
-<rect class="glow5" x="0.75" y="0.75" width="101.5" height="32.5" rx="10" fill="none" stroke="#FF4500" stroke-width="1.5" filter="url(#gl5)"/>
 <g clip-path="url(#c5)">
-<rect x="0" y="0" width="103" height="34" fill="#12141a"/>
-<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEpElEQVR4nI2Va2xURRTHf3PvPrq7lBWlpW0aMCAgmIgxiAoiry0SRGIjFP1i4gdMrBJA4YNRiZEYiKCJFMQIUSSBlIfhaSLYggGET5ZQIlCEBlPaLostu6Xd570z5t67u7SlPE4ymcnMOf//zHmN4D6iZvME8AYwF8UYoCR71AlcBerR2COO0HAvDDEg8AxG4OZToBLBY6jcQT9Layh6bCKTz0U9Zx9IoELMR2MTGuXIfqB9FIE0oGVR3DbRx+IoNb3VtH7gi9GpRVCO+QBw/xB4fwNq/UmoXAZSCyDYoEJ8NeAL1Czm4WIPioJ7AlsioCOu0/RcFRPW7SCgC0d9WQXiXB14AZMVoo6v8y9QIYaj8cPDgO+PBai8UcZ3/9wiHIlgKicI6UFF5F2q8aV6hamWiStrugqdUtst95HLCZ11sWJ+LG9n7LB2mm+0c1Xz4m08RXnjUSsOOQIvJmvVHGYKNYuRaDQgCNqHRhZNzypnso4MBKjpHEzUXchnhdehK47h95EuHY23/SJ6KuPYWMMRy/pVF4KFaATt21ujfDz4/NByCTwF8NIi1AtzYcQ4KtMmbl1DuQRcu4TrzCFcJ3aC5oaxEyARh+sXckQCyTuW/0+o2Sg1u0DJA1uVTCaVlErJ5otKtl1TUqn8yEnvPdn2r6Nr2Vi2B7baWKoCpUJ0oCoIq2kouWZxX8N7AaqHOF+zWKmXsUmsLBpmRT89/sV86ucS6eaFv2n5pRYjmbwr4EYqRcu+3dw839inWq1Eyjw1OQ/iFJqA1JVzdGQgYzhRvn0jQseS1xm8bQXxw7v7gFjr7p3fU7j2LWIbP6GrtdXez5gmnaaDlTPQUETxgP/Ydnp+30fCdGKdDLdToq4QdLfibzrZpzysdaDlPI8MkxRf+5VkuM2+eVJC99H9+Oq3YWE6dSC4gsZEV/wWj2+pJjphEsniEnwjRyHnvYeMXMS94N27XOR5sxqZaIaho/GPGUfCkMiOmwzfUo0ejzoVpuixpjpgorWhxcIYTQ2kHp2DV9dxL9lEt2FQ/8dxIqd/pit6ywYfHBxCUUkJoVVH0NxujEySlCHRL59Fj4YdcMv5Jqet5S4kSwGf9XbfwRquPzkZn0fD68rg9XjY+fNP7N1VC1q28KVB5cIqpk+fRiaeImWYJI0kZQc2gso605oE24WyphAH0ZnnpAC0zf2Q1gUr8WiCApcgk0qwacO3HDtxyradMXUKS5Yux+vz265JSyjdu56yw+ucduHcvgkXk+xYqwqeAf5E4LdJTPjv+Sra5n9Esng4mibwuDS6Y1H7aoXBIbZLTKkoiLRQdugbis7UOq4ReYJFoo7dd9p1iA/QqckXQhrMYBHdz75G/OmZZEpHIQNBR7k7iifcjL/xOIUNh9BjkXzW2G3CYLOoozqX0nfSz/osdFbmSWS2+Vk38gXAOyhbNLch0eOc5wKaAzfZTydV4i+7TQ74Za5AYzWCAhugd/LniiH3H+ckRyDZjM5y8Rup3kV5l6gQ0xCsBqag2cU48PdpATv7FzD5QtSzq7/KgAQ2yUI8dFGB5G1gJjC0n8ptBKcR7MDkoKgjNhDO/+NzVPu6k0PuAAAAAElFTkSuQmCC"/>
-<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">Reddit</text>
+<rect x="0" y="0" width="105" height="40" fill="#0d0f14"/>
+<rect x="0" y="0" width="105" height="40" fill="#0d0f14" stroke="#22252c" stroke-width="1"/>
+<circle class="aura5" cx="21" cy="20" r="18" fill="url(#gl5)"/>
+<circle cx="21" cy="20" r="13" fill="#181b21"/>
+<image x="11" y="10" width="20" height="20" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEpElEQVR4nI2Va2xURRTHf3PvPrq7lBWlpW0aMCAgmIgxiAoiry0SRGIjFP1i4gdMrBJA4YNRiZEYiKCJFMQIUSSBlIfhaSLYggGET5ZQIlCEBlPaLostu6Xd570z5t67u7SlPE4ymcnMOf//zHmN4D6iZvME8AYwF8UYoCR71AlcBerR2COO0HAvDDEg8AxG4OZToBLBY6jcQT9Layh6bCKTz0U9Zx9IoELMR2MTGuXIfqB9FIE0oGVR3DbRx+IoNb3VtH7gi9GpRVCO+QBw/xB4fwNq/UmoXAZSCyDYoEJ8NeAL1Czm4WIPioJ7AlsioCOu0/RcFRPW7SCgC0d9WQXiXB14AZMVoo6v8y9QIYaj8cPDgO+PBai8UcZ3/9wiHIlgKicI6UFF5F2q8aV6hamWiStrugqdUtst95HLCZ11sWJ+LG9n7LB2mm+0c1Xz4m08RXnjUSsOOQIvJmvVHGYKNYuRaDQgCNqHRhZNzypnso4MBKjpHEzUXchnhdehK47h95EuHY23/SJ6KuPYWMMRy/pVF4KFaATt21ujfDz4/NByCTwF8NIi1AtzYcQ4KtMmbl1DuQRcu4TrzCFcJ3aC5oaxEyARh+sXckQCyTuW/0+o2Sg1u0DJA1uVTCaVlErJ5otKtl1TUqn8yEnvPdn2r6Nr2Vi2B7baWKoCpUJ0oCoIq2kouWZxX8N7AaqHOF+zWKmXsUmsLBpmRT89/sV86ucS6eaFv2n5pRYjmbwr4EYqRcu+3dw839inWq1Eyjw1OQ/iFJqA1JVzdGQgYzhRvn0jQseS1xm8bQXxw7v7gFjr7p3fU7j2LWIbP6GrtdXez5gmnaaDlTPQUETxgP/Ydnp+30fCdGKdDLdToq4QdLfibzrZpzysdaDlPI8MkxRf+5VkuM2+eVJC99H9+Oq3YWE6dSC4gsZEV/wWj2+pJjphEsniEnwjRyHnvYeMXMS94N27XOR5sxqZaIaho/GPGUfCkMiOmwzfUo0ejzoVpuixpjpgorWhxcIYTQ2kHp2DV9dxL9lEt2FQ/8dxIqd/pit6ywYfHBxCUUkJoVVH0NxujEySlCHRL59Fj4YdcMv5Jqet5S4kSwGf9XbfwRquPzkZn0fD68rg9XjY+fNP7N1VC1q28KVB5cIqpk+fRiaeImWYJI0kZQc2gso605oE24WyphAH0ZnnpAC0zf2Q1gUr8WiCApcgk0qwacO3HDtxyradMXUKS5Yux+vz265JSyjdu56yw+ucduHcvgkXk+xYqwqeAf5E4LdJTPjv+Sra5n9Esng4mibwuDS6Y1H7aoXBIbZLTKkoiLRQdugbis7UOq4ReYJFoo7dd9p1iA/QqckXQhrMYBHdz75G/OmZZEpHIQNBR7k7iifcjL/xOIUNh9BjkXzW2G3CYLOoozqX0nfSz/osdFbmSWS2+Vk38gXAOyhbNLch0eOc5wKaAzfZTydV4i+7TQ74Za5AYzWCAhugd/LniiH3H+ckRyDZjM5y8Rup3kV5l6gQ0xCsBqag2cU48PdpATv7FzD5QtSzq7/KgAQ2yUI8dFGB5G1gJjC0n8ptBKcR7MDkoKgjNhDO/+NzVPu6k0PuAAAAAElFTkSuQmCC"/>
+<text x="44" y="24.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e6e8eb">Reddit</text>
 </g>
-<rect x="0.75" y="0.75" width="101.5" height="32.5" rx="10" fill="none" stroke="#FF4500" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="104" height="39" rx="19.5" fill="none" stroke="#FF4500" stroke-opacity="0.4" stroke-width="1"/>
 </svg>
