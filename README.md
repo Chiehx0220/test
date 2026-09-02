@@ -4,7 +4,7 @@ Real render, no simulation. See conversation for context.
 
 ## 🎬 Media & Entertainment
 
-<a href="https://play.google.com/store/apps/details?id=tv.twitch.android.app"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/Twitch.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=tv.twitch.android.app"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/Twitch.png" align="left" hspace="12"></a>
 **Twitch**  
 
 <sub>Patches by [de-vanced](https://github.com/RookieEnough/De-Vanced)</sub>  
@@ -13,7 +13,7 @@ Real render, no simulation. See conversation for context.
 
 <br clear="left">
 
-<a href="https://play.google.com/store/apps/details?id=com.google.android.youtube"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/YouTube.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.google.android.youtube"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/YouTube.png" align="left" hspace="12"></a>
 **YouTube**  
 
 <sub>Patches by [Morphe](https://github.com/MorpheApp/morphe-patches)</sub>  
@@ -22,7 +22,7 @@ Real render, no simulation. See conversation for context.
 
 <br clear="left">
 
-<a href="https://play.google.com/store/apps/details?id=com.soundcloud.android"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/SoundCloud.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.soundcloud.android"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/SoundCloud.png" align="left" hspace="12"></a>
 **SoundCloud**  
 
 <sub>Patches by [hoo-dles](https://github.com/hoo-dles/morphe-patches)</sub>  
@@ -31,7 +31,7 @@ Real render, no simulation. See conversation for context.
 
 <br clear="left">
 
-<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/Google-Photos.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/Google-Photos.png" align="left" hspace="12"></a>
 **Google Photos**  
 
 <sub>Patches by [rushi](https://github.com/rushiranpise/morphe-patches)</sub>  
@@ -42,7 +42,7 @@ Real render, no simulation. See conversation for context.
 
 ## 💬 Social & Messaging
 
-<a href="https://play.google.com/store/apps/details?id=com.instagram.android"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/Instagram.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.instagram.android"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/Instagram.png" align="left" hspace="12"></a>
 **Instagram**  
 
 <sub>Patches by [piko](https://github.com/crimera/piko)</sub>  
@@ -51,7 +51,7 @@ Real render, no simulation. See conversation for context.
 
 <br clear="left">
 
-<a href="https://play.google.com/store/apps/details?id=com.reddit.frontpage"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/Reddit.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.reddit.frontpage"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/Reddit.png" align="left" hspace="12"></a>
 **Reddit**  
 
 <sub>Patches by [Morphe](https://github.com/MorpheApp/morphe-patches)</sub>  
@@ -60,7 +60,7 @@ Real render, no simulation. See conversation for context.
 
 <br clear="left">
 
-<a href="https://play.google.com/store/apps/details?id=com.kakao.talk"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/KakaoTalk.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.kakao.talk"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/KakaoTalk.png" align="left" hspace="12"></a>
 **KakaoTalk**  
 
 <sub>Patches by [AmpleReVanced](https://github.com/AmpleReVanced/revanced-patches)</sub>  
@@ -71,7 +71,7 @@ Real render, no simulation. See conversation for context.
 
 ## 🔒 Privacy & Security
 
-<a href="https://play.google.com/store/apps/details?id=com.kin.athena"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/Athena.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.kin.athena"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/Athena.png" align="left" hspace="12"></a>
 **Athena**  
 
 <sub>Patches by [rushi](https://github.com/rushiranpise/morphe-patches)</sub>  
@@ -80,7 +80,7 @@ Real render, no simulation. See conversation for context.
 
 <br clear="left">
 
-<a href="https://play.google.com/store/apps/details?id=ch.protonmail.android"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/Proton-Mail_hxreborn.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=ch.protonmail.android"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/Proton-Mail_hxreborn.png" align="left" hspace="12"></a>
 **Proton Mail**  
 
 <sub>Patches by [hxreborn](https://github.com/hxreborn/morphe-patches)</sub>  
@@ -91,7 +91,7 @@ Real render, no simulation. See conversation for context.
 
 ## 🛠️ Utilities
 
-<a href="https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"><img src="https://raw.githubusercontent.com/Chiehx0220/builder-for-morphe/main/images/icons/TikTok_icysymmetra.png" width="48" height="48" align="left" hspace="12"></a>
+<a href="https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"><img src="https://raw.githubusercontent.com/Chiehx0220/test/main/icons48/TikTok_icysymmetra.png" align="left" hspace="12"></a>
 **TikTok**  
 
 <sub>Patches by [icysymmetra](https://github.com/icysymmetra/tiktok-patches-for-morphe)</sub>  
