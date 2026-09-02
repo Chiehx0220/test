@@ -1,9 +1,9 @@
-# App card concept sample
+# App card v2 — button baked into the card
 
-Real render. Card is one image (not individually clickable inside); Download/Obtainium below are the real functional buttons.
+Real render. The whole card links to the GitHub release (the primary action); Obtainium is the small link underneath.
 
-[![YouTube](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/youtube.svg)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
-[![Download](https://raw.githubusercontent.com/Chiehx0220/test/main/chips/youtube-download.svg)](https://github.com/Chiehx0220/builder-for-morphe/releases?q=YouTube&expanded=true) [![Obtainium](https://raw.githubusercontent.com/Chiehx0220/test/main/chips/youtube-obtainium.svg)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/com.google.android.youtube)
+[![YouTube](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/youtube.svg)](https://github.com/Chiehx0220/builder-for-morphe/releases?q=YouTube&expanded=true)
+<sub>[+ Add via Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/com.google.android.youtube)</sub>
 
-[![Twitch](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/twitch.svg)](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
-[![Download](https://raw.githubusercontent.com/Chiehx0220/test/main/chips/twitch-download.svg)](https://github.com/Chiehx0220/builder-for-morphe/releases?q=Twitch&expanded=true) [![Obtainium](https://raw.githubusercontent.com/Chiehx0220/test/main/chips/twitch-obtainium.svg)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/tv.twitch.android.app)
+[![Twitch](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/twitch.svg)](https://github.com/Chiehx0220/builder-for-morphe/releases?q=Twitch&expanded=true)
+<sub>[+ Add via Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/tv.twitch.android.app)</sub>
