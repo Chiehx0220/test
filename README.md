@@ -1,10 +1,12 @@
-# App card v3 — separate rounded action buttons below
+# App card v5 — four independent stacked rounded blocks
 
-Real render. Card links to Play Store (info only); Download and Obtainium are independent rounded buttons underneath.
+Real render. Header / repo / two buttons, each its own rounded box with a gap between.
 
 <div align="center">
 
-[![YouTube](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/youtube.svg)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
+[![YouTube](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/youtube-header.svg)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
+
+[![repo](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/youtube-repo.svg)](https://github.com/MorpheApp/morphe-patches)
 
 [![Download](https://raw.githubusercontent.com/Chiehx0220/test/main/actions/download.svg)](https://github.com/Chiehx0220/builder-for-morphe/releases?q=YouTube&expanded=true) [![Obtainium](https://raw.githubusercontent.com/Chiehx0220/test/main/actions/obtainium.svg)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/com.google.android.youtube)
 
@@ -12,7 +14,9 @@ Real render. Card links to Play Store (info only); Download and Obtainium are in
 
 <div align="center">
 
-[![Twitch](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/twitch.svg)](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
+[![Twitch](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/twitch-header.svg)](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
+
+[![repo](https://raw.githubusercontent.com/Chiehx0220/test/main/cards/twitch-repo.svg)](https://github.com/RookieEnough/De-Vanced)
 
 [![Download](https://raw.githubusercontent.com/Chiehx0220/test/main/actions/download.svg)](https://github.com/Chiehx0220/builder-for-morphe/releases?q=Twitch&expanded=true) [![Obtainium](https://raw.githubusercontent.com/Chiehx0220/test/main/actions/obtainium.svg)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/tv.twitch.android.app)
 
