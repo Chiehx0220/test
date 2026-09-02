@@ -1,25 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="145" height="40" viewBox="0 0 145 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="34" viewBox="0 0 132 34">
 <defs>
-<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#FF5500"/>
-<stop offset="100%" stop-color="#8c2e00"/>
-</linearGradient>
-<clipPath id="c2"><rect x="0" y="0" width="145" height="40" rx="20"/></clipPath>
-<linearGradient id="s2" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient>
+<clipPath id="c2"><rect x="0.75" y="0.75" width="130.5" height="32.5" rx="10"/></clipPath>
+<filter id="gl2" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
 <style>
-@keyframes sweep2{from{transform:translateX(-145px)}to{transform:translateX(145px)}}
-.shine2{animation:sweep2 3.2s ease-in-out infinite}
+@keyframes pulse2{0%,100%{opacity:0.35}50%{opacity:0.85}}
+.glow2{animation:pulse2 2.6s ease-in-out infinite}
 </style>
 </defs>
+<rect class="glow2" x="0.75" y="0.75" width="130.5" height="32.5" rx="10" fill="none" stroke="#FF5500" stroke-width="1.5" filter="url(#gl2)"/>
 <g clip-path="url(#c2)">
-<rect x="0" y="0" width="145" height="40" fill="url(#g2)"/>
-<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
-<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADVklEQVR4nK2Vz2tcVRTHP+feOz+SmEz6w19gWqnVdSvaCiKC0I0WQctbKCi4EBdSRCiVgBaxm4K4EJX+BV2YaUG6EJW6UaoWtLELCwErCnZRq20y00znZd67R+6dHzaTmUlED1zm3TPnfb/n9xNGiCbsxHAAz5MID6DchcS/rqFcQvgSqMoc54dhyEDgZ9mO5U2EZxC2tJWd032re3KWI1HO23KK+XUJNOFpDB9huIf8FtBRLhrAs4xnVk7ywVACTXgZw/vAGH4d4H7pRuR5V6ocvlUdRQ+wH0sVKK/r9XrRZBySk7zXVQXPtwHfYbj7X3s+OJKUjH1yiq8DX5AjuP8BPEiIXihhOKYHKYk+zw5anEeobKigAmkmiEDR6uruWm2r5DzlaJFgqAz1XjoABq6nwuzCBN/XHFaUvZWMg/c2uf+2PBS3/z3B8JJowlcYHhtggCo0MmGioFxYcly+aUguTGKMRt7UCzMlz9zuOg9OZ6tJ2o5dc2ic0DVp+PWG5Uoq/NKwjFn4vSlMWmXchsjbZgWrXE4NswvjfL6nBja26T9pEzY7hDs7F3IPvzUsd5Q9Zxcdf6SGphdWcnACJfFrJnPMKvM1x3Pzk8yUPa9sa3LfRN4jCQRRFuqWSw3LuSXHloLy54rQzIVUwYSCilDRdmr6S5QBp68WWfFw5i/HFw/X2VrykcCgLIYC/lB3fHq1wJWm8FPNUG9JrEHTw00vZCM6LJCUjTLllIvLjm8XXW+Ewxz8HC5TVrm9qDHfpXiUklOmHUwZZcIqoWCjOjmk34myudCxUpYdcAbloUemM3aM5Zy9Xojelm3biWYuNHJicUORQ+e0dO2WDJAlo7w6k7J3U6sb2jehTXeFh7jgFG7kwtKKUOjMuHaOFSiIcm6xQDpgZkI6t497dlWybgeF3xckOpNwGsv+Xv9tZGsOkgDse+t7gSJ7QoME9Vt4Gr2pHXV8/MgMPt3I2g4ckRPUYiKkyo8ob4z0bqMSqppzXKrMhWt3mwaSD8PHImrkP4C3+IRNvNbD7bfRhEMYjiKUY9gbka6bnuPUeV0+Ix1K0CF5HOEoyqOYOIyDV3IAbusvorwjVT7uNxmaDE0oAvsQXkR5AmFrH0kdYnufCJtCqiwNwvkb+8pDcp5M16MAAAAASUVORK5CYII="/>
-<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">SoundCloud</text>
-<rect class="shine2" x="0" y="0" width="48" height="40" fill="url(#s2)" transform="skewX(-20)"/>
+<rect x="0" y="0" width="132" height="34" fill="#12141a"/>
+<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADVklEQVR4nK2Vz2tcVRTHP+feOz+SmEz6w19gWqnVdSvaCiKC0I0WQctbKCi4EBdSRCiVgBaxm4K4EJX+BV2YaUG6EJW6UaoWtLELCwErCnZRq20y00znZd67R+6dHzaTmUlED1zm3TPnfb/n9xNGiCbsxHAAz5MID6DchcS/rqFcQvgSqMoc54dhyEDgZ9mO5U2EZxC2tJWd032re3KWI1HO23KK+XUJNOFpDB9huIf8FtBRLhrAs4xnVk7ywVACTXgZw/vAGH4d4H7pRuR5V6ocvlUdRQ+wH0sVKK/r9XrRZBySk7zXVQXPtwHfYbj7X3s+OJKUjH1yiq8DX5AjuP8BPEiIXihhOKYHKYk+zw5anEeobKigAmkmiEDR6uruWm2r5DzlaJFgqAz1XjoABq6nwuzCBN/XHFaUvZWMg/c2uf+2PBS3/z3B8JJowlcYHhtggCo0MmGioFxYcly+aUguTGKMRt7UCzMlz9zuOg9OZ6tJ2o5dc2ic0DVp+PWG5Uoq/NKwjFn4vSlMWmXchsjbZgWrXE4NswvjfL6nBja26T9pEzY7hDs7F3IPvzUsd5Q9Zxcdf6SGphdWcnACJfFrJnPMKvM1x3Pzk8yUPa9sa3LfRN4jCQRRFuqWSw3LuSXHloLy54rQzIVUwYSCilDRdmr6S5QBp68WWfFw5i/HFw/X2VrykcCgLIYC/lB3fHq1wJWm8FPNUG9JrEHTw00vZCM6LJCUjTLllIvLjm8XXW+Ewxz8HC5TVrm9qDHfpXiUklOmHUwZZcIqoWCjOjmk34myudCxUpYdcAbloUemM3aM5Zy9Xojelm3biWYuNHJicUORQ+e0dO2WDJAlo7w6k7J3U6sb2jehTXeFh7jgFG7kwtKKUOjMuHaOFSiIcm6xQDpgZkI6t497dlWybgeF3xckOpNwGsv+Xv9tZGsOkgDse+t7gSJ7QoME9Vt4Gr2pHXV8/MgMPt3I2g4ckRPUYiKkyo8ob4z0bqMSqppzXKrMhWt3mwaSD8PHImrkP4C3+IRNvNbD7bfRhEMYjiKUY9gbka6bnuPUeV0+Ix1K0CF5HOEoyqOYOIyDV3IAbusvorwjVT7uNxmaDE0oAvsQXkR5AmFrH0kdYnufCJtCqiwNwvkb+8pDcp5M16MAAAAASUVORK5CYII="/>
+<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">SoundCloud</text>
 </g>
+<rect x="0.75" y="0.75" width="130.5" height="32.5" rx="10" fill="none" stroke="#FF5500" stroke-opacity="0.55" stroke-width="1"/>
 </svg>

@@ -1,25 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="119" height="40" viewBox="0 0 119 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="34" viewBox="0 0 110 34">
 <defs>
-<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#FF0000"/>
-<stop offset="100%" stop-color="#8c0000"/>
-</linearGradient>
-<clipPath id="c1"><rect x="0" y="0" width="119" height="40" rx="20"/></clipPath>
-<linearGradient id="s1" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient>
+<clipPath id="c1"><rect x="0.75" y="0.75" width="108.5" height="32.5" rx="10"/></clipPath>
+<filter id="gl1" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
 <style>
-@keyframes sweep1{from{transform:translateX(-119px)}to{transform:translateX(119px)}}
-.shine1{animation:sweep1 3.2s ease-in-out infinite}
+@keyframes pulse1{0%,100%{opacity:0.35}50%{opacity:0.85}}
+.glow1{animation:pulse1 2.6s ease-in-out infinite}
 </style>
 </defs>
+<rect class="glow1" x="0.75" y="0.75" width="108.5" height="32.5" rx="10" fill="none" stroke="#FF0000" stroke-width="1.5" filter="url(#gl1)"/>
 <g clip-path="url(#c1)">
-<rect x="0" y="0" width="119" height="40" fill="url(#g1)"/>
-<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
-<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAChklEQVR4nLWVPWhTURiGn3ubNpXEn6ZiBUFBtLj4ixQdRKmTbXGxrZODipsOopM4OCk4ODgUqeLgIqUFqWB1UJEORRwKRTr4NymC2qZSe23Sn7xycs9N83PTBhpfOCTn3O973+98efNdh2UgaQdwCmgDmoHN9lES+AK8AvodxxldjieMeJuk+5ImtDJmJA1K2l8p+UlJXysgDhO6tBL5BUl/tTrcLkfeIWlW1cGVYvKtkr6rekhJOmK4HSvwADifVUulYGAIxj7Cj0lIpyG9CAsZkK3IZEVciNZANApNjbC3GTrboL4+qHsEaI1I2g502rvA5Vtw7zFQa5mcPNaCe+d9mjUPI2PQcyOIPWwEXKALWJ+NnUzCwGsgDqwBTDVRu1wrWmdXcF5vY2Mw8AYmp4IKjMpZk9WeK2oiCX9mQ6rNQMtOiBnidBkPujDt+RxLOO7af6iPqRmYz4Qkp+HaORjuhROHrMhiaZjJNRxLSBiBptzW8yAzH3IDYG4BDuyGoV4YvAO7thSJOH6uVyCQbex/RQT4DWzI7mJxcGsho9Jb1EVg9D1cvwvP39rUmrwA+bnxeInAZ+BgdtcQg1oX0oEFA0Th5kMY/2ZbYNwTApPbUCDgmRa9zG03JmCtsVyxgAvvPoE3V57cOG1dDBoT+YcjRqAPMN70H3a1AjP2KGUdY5ZxlzHAnF3BecrGetB5DBob8gUeOZJMs58CHblR0f/MHxU/k5WNik0J2NMM3WZUmA5k8QFoyX6TtE+Sp+qiu6CDki5Wkbwn9GcyL4sqkD+RZIZWOCRdXcWLp0dSOZsViByVNCxpsULicUmnVyQuEqmT1C6pT9KvENJpSS8knZHkj/sQ/APB0IdeuXSlQgAAAABJRU5ErkJggg=="/>
-<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">YouTube</text>
-<rect class="shine1" x="0" y="0" width="39" height="40" fill="url(#s1)" transform="skewX(-20)"/>
+<rect x="0" y="0" width="110" height="34" fill="#12141a"/>
+<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAChklEQVR4nLWVPWhTURiGn3ubNpXEn6ZiBUFBtLj4ixQdRKmTbXGxrZODipsOopM4OCk4ODgUqeLgIqUFqWB1UJEORRwKRTr4NymC2qZSe23Sn7xycs9N83PTBhpfOCTn3O973+98efNdh2UgaQdwCmgDmoHN9lES+AK8AvodxxldjieMeJuk+5ImtDJmJA1K2l8p+UlJXysgDhO6tBL5BUl/tTrcLkfeIWlW1cGVYvKtkr6rekhJOmK4HSvwADifVUulYGAIxj7Cj0lIpyG9CAsZkK3IZEVciNZANApNjbC3GTrboL4+qHsEaI1I2g502rvA5Vtw7zFQa5mcPNaCe+d9mjUPI2PQcyOIPWwEXKALWJ+NnUzCwGsgDqwBTDVRu1wrWmdXcF5vY2Mw8AYmp4IKjMpZk9WeK2oiCX9mQ6rNQMtOiBnidBkPujDt+RxLOO7af6iPqRmYz4Qkp+HaORjuhROHrMhiaZjJNRxLSBiBptzW8yAzH3IDYG4BDuyGoV4YvAO7thSJOH6uVyCQbex/RQT4DWzI7mJxcGsho9Jb1EVg9D1cvwvP39rUmrwA+bnxeInAZ+BgdtcQg1oX0oEFA0Th5kMY/2ZbYNwTApPbUCDgmRa9zG03JmCtsVyxgAvvPoE3V57cOG1dDBoT+YcjRqAPMN70H3a1AjP2KGUdY5ZxlzHAnF3BecrGetB5DBob8gUeOZJMs58CHblR0f/MHxU/k5WNik0J2NMM3WZUmA5k8QFoyX6TtE+Sp+qiu6CDki5Wkbwn9GcyL4sqkD+RZIZWOCRdXcWLp0dSOZsViByVNCxpsULicUmnVyQuEqmT1C6pT9KvENJpSS8knZHkj/sQ/APB0IdeuXSlQgAAAABJRU5ErkJggg=="/>
+<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">YouTube</text>
 </g>
+<rect x="0.75" y="0.75" width="108.5" height="32.5" rx="10" fill="none" stroke="#FF0000" stroke-opacity="0.55" stroke-width="1"/>
 </svg>

@@ -1,25 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="111" height="40" viewBox="0 0 111 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="34" viewBox="0 0 103 34">
 <defs>
-<linearGradient id="g9" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#00F2EA"/>
-<stop offset="100%" stop-color="#008580"/>
-</linearGradient>
-<clipPath id="c9"><rect x="0" y="0" width="111" height="40" rx="20"/></clipPath>
-<linearGradient id="s9" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient>
+<clipPath id="c9"><rect x="0.75" y="0.75" width="101.5" height="32.5" rx="10"/></clipPath>
+<filter id="gl9" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
 <style>
-@keyframes sweep9{from{transform:translateX(-111px)}to{transform:translateX(111px)}}
-.shine9{animation:sweep9 3.2s ease-in-out infinite}
+@keyframes pulse9{0%,100%{opacity:0.35}50%{opacity:0.85}}
+.glow9{animation:pulse9 2.6s ease-in-out infinite}
 </style>
 </defs>
+<rect class="glow9" x="0.75" y="0.75" width="101.5" height="32.5" rx="10" fill="none" stroke="#00F2EA" stroke-width="1.5" filter="url(#gl9)"/>
 <g clip-path="url(#c9)">
-<rect x="0" y="0" width="111" height="40" fill="url(#g9)"/>
-<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
-<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADZ0lEQVR4nJ2Vb2hVdRjHP+fcsz90d+dWG+bI1rpraS1Qt3eWIubNXXcrSksTI4OMYBHYwGRQEIQxQySiF9UriWQUhERlZoHO+SLLbE2KCl8k6RXdVu7fvdu95xu/4z13l3n/TL/wHO495znf7/Pv9xwojmZgF3AMuGhZlowBw8APwB5gBTeBRuBD4AqgEjYOHAKWz5f8UeB8PrJATY2c9jZh7N6WfEIvlyJ/AZgsFG1lbINi6YR60tPaNTSktdWL8vn1FiLvBKaKlcPujGqf0vIw4+q7yLOFfF+dS34ncKFUve3OqHqVuiYgabT/R4Wra/P5JoCHcgU+mkczNVfA4MjASdVF1on6OmF7E+bbAFBhyO8G/r1ZAYNfJb1y7k89EF4ia9bfBTpsYBOwgBtFOg2u4YFWYP/iMAdvX0Fg1sMCtjvAhnzvl7XeT8XWLYTa21gwPc2Vrc8zbEh9XBphdPe7OI+vIbSyDSrLKfc4Z2Hb9loj0DKXvKrrJRrefIPNtQuJmVM3mWSwoZ31lu3l7SHgcOrEADsPvMP28HJWLWriajwOlg265mXb9q1kjn7Wgs9tU1tqUv1ylUViRqdbO+VEO/S234P4iI4ujWTfM7UPWoHcHshxHJkMsgjU13Pb6z28FajkQZPuyH/w6fdwcRgrkQSrrGBLDOOEckqYgZOZoBpPYM0qVjc184ghn5iCrr18/c1hPhj7m7g1g5asxEzFjcCR9BfQ7v25bykRfw5+/oNTx47zxOgZEpnIbPf6CIvBdd0JE9DR7J2ZFAv93xXlfDUez5J7ArU1yM8hlcZKq5TASePdl9lBJH8Z9M64h2X30BRbN0teX0fViztoVIb03D9Mjo2VSuKAuZjh/cLrUyiknt+GssMzMTWlZz75WDX79qph8CftSCc17mama+d+7a4OFzv5vwPV2XjNEJgHi6MdupRMZkVcSWcknZb8PSp9eUKXW2JqLLulmMBTc9Pp8h9uenKjkucv6DpMp6SDR5RctkWbQ3cUI3+/UM16fadoQ7MGu/dIfd9Kh/ql9z6TNr6ms40P67Fg3g+Nb5+bTVOsMd3+hycIigRq1R1sUnfwLq2vqFOV7ZSK3FvRpbAaOG525nzWOHAWeHo+xLkoz2zaPtu2L3t7JccCgcBV4DCwrdi6/x+hazqIZ5BkVQAAAABJRU5ErkJggg=="/>
-<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">TikTok</text>
-<rect class="shine9" x="0" y="0" width="37" height="40" fill="url(#s9)" transform="skewX(-20)"/>
+<rect x="0" y="0" width="103" height="34" fill="#12141a"/>
+<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADZ0lEQVR4nJ2Vb2hVdRjHP+fcsz90d+dWG+bI1rpraS1Qt3eWIubNXXcrSksTI4OMYBHYwGRQEIQxQySiF9UriWQUhERlZoHO+SLLbE2KCl8k6RXdVu7fvdu95xu/4z13l3n/TL/wHO495znf7/Pv9xwojmZgF3AMuGhZlowBw8APwB5gBTeBRuBD4AqgEjYOHAKWz5f8UeB8PrJATY2c9jZh7N6WfEIvlyJ/AZgsFG1lbINi6YR60tPaNTSktdWL8vn1FiLvBKaKlcPujGqf0vIw4+q7yLOFfF+dS34ncKFUve3OqHqVuiYgabT/R4Wra/P5JoCHcgU+mkczNVfA4MjASdVF1on6OmF7E+bbAFBhyO8G/r1ZAYNfJb1y7k89EF4ia9bfBTpsYBOwgBtFOg2u4YFWYP/iMAdvX0Fg1sMCtjvAhnzvl7XeT8XWLYTa21gwPc2Vrc8zbEh9XBphdPe7OI+vIbSyDSrLKfc4Z2Hb9loj0DKXvKrrJRrefIPNtQuJmVM3mWSwoZ31lu3l7SHgcOrEADsPvMP28HJWLWriajwOlg265mXb9q1kjn7Wgs9tU1tqUv1ylUViRqdbO+VEO/S234P4iI4ujWTfM7UPWoHcHshxHJkMsgjU13Pb6z28FajkQZPuyH/w6fdwcRgrkQSrrGBLDOOEckqYgZOZoBpPYM0qVjc184ghn5iCrr18/c1hPhj7m7g1g5asxEzFjcCR9BfQ7v25bykRfw5+/oNTx47zxOgZEpnIbPf6CIvBdd0JE9DR7J2ZFAv93xXlfDUez5J7ArU1yM8hlcZKq5TASePdl9lBJH8Z9M64h2X30BRbN0teX0fViztoVIb03D9Mjo2VSuKAuZjh/cLrUyiknt+GssMzMTWlZz75WDX79qph8CftSCc17mama+d+7a4OFzv5vwPV2XjNEJgHi6MdupRMZkVcSWcknZb8PSp9eUKXW2JqLLulmMBTc9Pp8h9uenKjkucv6DpMp6SDR5RctkWbQ3cUI3+/UM16fadoQ7MGu/dIfd9Kh/ql9z6TNr6ms40P67Fg3g+Nb5+bTVOsMd3+hycIigRq1R1sUnfwLq2vqFOV7ZSK3FvRpbAaOG525nzWOHAWeHo+xLkoz2zaPtu2L3t7JccCgcBV4DCwrdi6/x+hazqIZ5BkVQAAAABJRU5ErkJggg=="/>
+<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">TikTok</text>
 </g>
+<rect x="0.75" y="0.75" width="101.5" height="32.5" rx="10" fill="none" stroke="#00F2EA" stroke-opacity="0.55" stroke-width="1"/>
 </svg>

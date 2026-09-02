@@ -1,25 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="153" height="40" viewBox="0 0 153 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="34" viewBox="0 0 139 34">
 <defs>
-<linearGradient id="g8" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#6D4AFF"/>
-<stop offset="100%" stop-color="#3b288c"/>
-</linearGradient>
-<clipPath id="c8"><rect x="0" y="0" width="153" height="40" rx="20"/></clipPath>
-<linearGradient id="s8" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient>
+<clipPath id="c8"><rect x="0.75" y="0.75" width="137.5" height="32.5" rx="10"/></clipPath>
+<filter id="gl8" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
 <style>
-@keyframes sweep8{from{transform:translateX(-153px)}to{transform:translateX(153px)}}
-.shine8{animation:sweep8 3.2s ease-in-out infinite}
+@keyframes pulse8{0%,100%{opacity:0.35}50%{opacity:0.85}}
+.glow8{animation:pulse8 2.6s ease-in-out infinite}
 </style>
 </defs>
+<rect class="glow8" x="0.75" y="0.75" width="137.5" height="32.5" rx="10" fill="none" stroke="#6D4AFF" stroke-width="1.5" filter="url(#gl8)"/>
 <g clip-path="url(#c8)">
-<rect x="0" y="0" width="153" height="40" fill="url(#g8)"/>
-<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
-<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACsklEQVR4nK2VT0hUURjFf88ZHf9m2aLcFES0KaIgggQJahMpbSpctWjRrlYF7Vq0iGjZwkVBUDsrMgtBKJUSRZDKwDLB0DBN06x01EYdT3zvPjXHpyPp2bx3/53zfefe716PVSBpN3AaOAnsAbYHQ6PAZ6AeeOR53tvVeMKId0q6K2lE6RGXVCPp4FrJT0nqWwNxmNCldOQXJE1qfbi1Enm5pCltDC6nku+QNJCYkno//T9rd4c0aUZJfySVGndGoHENKJ4Yh9YX0N4Mc0nWjGQSWuqg8QlMxv2uGHBTUiwqaRdwxnojUcjNh55OmEnA/hKIZa9OPhWHplr40gXZeZAxHzIcAY5Z8yxQ6Ecy60QKCmF0CNqbID62MvnXbrh3A/p7ICcfMmPgeQvD9nfeBMrme8yitgaYnoaCIkgk4GMb/BxZTt7RCrevQn8v5BY48szMJQKG4xlBhfqw9Ea+wasal8GmLZARgd5OGB5YXNX0HO5ch/ExZ2FmFmRluW+KQFEU2PZvj1kU/w31j6G0DPYedhv+YxCmE9BaBw3V4EUgEnGERmyIRpcJYALLYFHPzkDDU2dbyQk7ylB7H941QzSwwoQta19Arp8QgV/A5lQRz8yTO7a9XY5sqH8xWoOCeWaPguzDMugGDoVlYpNt0WCfC8wsCJsTDUR9gcVjapiw5kvSIBJxti2DAotiTiRkk1tMoMrqxZ8v0Fw6uaWwiOdPkb83S4cfWNLvg4ej3AosLw9Gvq8QcQqsMJMzzrq5OcjJc9kE6AKe+YKSDgDNQK6d+TeNbmHqhqXCNn5rMeyzS8GDwiJX0QEqPM97uNCSdFEbh8rQiOyx2ADyaklWEeGQdGUdD0+lXdGrG+tEjkp6LSm5RuIPkirSEqeIZEkqk1QlaTiEdExSnaRzkvzrPgx/AatOODqRnFFSAAAAAElFTkSuQmCC"/>
-<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">Proton Mail</text>
-<rect class="shine8" x="0" y="0" width="51" height="40" fill="url(#s8)" transform="skewX(-20)"/>
+<rect x="0" y="0" width="139" height="34" fill="#12141a"/>
+<image x="7" y="5" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACsklEQVR4nK2VT0hUURjFf88ZHf9m2aLcFES0KaIgggQJahMpbSpctWjRrlYF7Vq0iGjZwkVBUDsrMgtBKJUSRZDKwDLB0DBN06x01EYdT3zvPjXHpyPp2bx3/53zfefe716PVSBpN3AaOAnsAbYHQ6PAZ6AeeOR53tvVeMKId0q6K2lE6RGXVCPp4FrJT0nqWwNxmNCldOQXJE1qfbi1Enm5pCltDC6nku+QNJCYkno//T9rd4c0aUZJfySVGndGoHENKJ4Yh9YX0N4Mc0nWjGQSWuqg8QlMxv2uGHBTUiwqaRdwxnojUcjNh55OmEnA/hKIZa9OPhWHplr40gXZeZAxHzIcAY5Z8yxQ6Ecy60QKCmF0CNqbID62MvnXbrh3A/p7ICcfMmPgeQvD9nfeBMrme8yitgaYnoaCIkgk4GMb/BxZTt7RCrevQn8v5BY48szMJQKG4xlBhfqw9Ea+wasal8GmLZARgd5OGB5YXNX0HO5ch/ExZ2FmFmRluW+KQFEU2PZvj1kU/w31j6G0DPYedhv+YxCmE9BaBw3V4EUgEnGERmyIRpcJYALLYFHPzkDDU2dbyQk7ylB7H941QzSwwoQta19Arp8QgV/A5lQRz8yTO7a9XY5sqH8xWoOCeWaPguzDMugGDoVlYpNt0WCfC8wsCJsTDUR9gcVjapiw5kvSIBJxti2DAotiTiRkk1tMoMrqxZ8v0Fw6uaWwiOdPkb83S4cfWNLvg4ej3AosLw9Gvq8QcQqsMJMzzrq5OcjJc9kE6AKe+YKSDgDNQK6d+TeNbmHqhqXCNn5rMeyzS8GDwiJX0QEqPM97uNCSdFEbh8rQiOyx2ADyaklWEeGQdGUdD0+lXdGrG+tEjkp6LSm5RuIPkirSEqeIZEkqk1QlaTiEdExSnaRzkvzrPgx/AatOODqRnFFSAAAAAElFTkSuQmCC"/>
+<text x="38" y="21.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2" fill="#f0f2f5">Proton Mail</text>
 </g>
+<rect x="0.75" y="0.75" width="137.5" height="32.5" rx="10" fill="none" stroke="#6D4AFF" stroke-opacity="0.55" stroke-width="1"/>
 </svg>
