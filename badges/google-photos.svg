@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="40" viewBox="0 0 170 40">
+<defs>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#4285F4"/>
+<stop offset="100%" stop-color="#244986"/>
+</linearGradient>
+<clipPath id="c3"><rect x="0" y="0" width="170" height="40" rx="20"/></clipPath>
+<linearGradient id="s3" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<style>
+@keyframes sweep3{from{transform:translateX(-170px)}to{transform:translateX(170px)}}
+.shine3{animation:sweep3 3.2s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#c3)">
+<rect x="0" y="0" width="170" height="40" fill="url(#g3)"/>
+<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
+<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADV0lEQVR4nI2VT2hcVRjFf3fum5kE0ppYQ1vFtEQxCZJFtYV2oUKKFtvgphGxIOKiG4soKIigdaMiLl2omJ27WqQoVFxYF1Ky7B/BatPUaFKaoWlmzEwyf96/Iy8vJtPJvJk58B7v3fu9c77zve/ea2gBSY8Cx4GjwGPArvWpPHATuACcNcZcasXTjHiPpElJd9UeK5K+l7SvU/IXJM13QNxM6I125CcllZWEMJRm/5Lm5xJDJH2WRD4uqdLqS+Xz8seflz/2tIIP35cKhaTIt//nTa2TDwBfA10tLQYBeC74PvrxPOEnH609N8HHkp7aEABOA7vpBMZAykBPD5q6iH672iwqC3wqKetIGgQmGgoGxSmoXAYnCz0HITtal0+doxvT8MSTzUQOAWMO8CJw38awX0AzJ2H5HKRDyFhMVx/0nwJObRWxTqJX4LVo9lh95pp9C/LfQdaBdBc4GTCClc/Bs2AyoNXYZTYLo5GzRBxOra/QGLV/oBiRG3AsWIOxUZYpsFlwz2KCVUwYYCpl7MQEZmi4lcD9kYOdmwZc6N4JxgVrMdbGQpk0gbVUAksqm4Jte9CRo+jlE4QVCAVRLzkp6G3oQxM17T0jQSG6bbyGggsLVS4vpfGqlqEb4Ke3k3My3FmBuy4seVDw4wabPAGDD2zSRQ7+BXo3RmzfPXqTM39z/tYyvU4fuzL9BL3d3ClArgi3a5CrQd4DN4B0OjZcj+gfzCQV8Fpxka9mf2HR/4Oc+yd5bvLQQECpBqUgvopB7Lfqw+FheHgz1QirkcDPSQIXl64xXb7CbW+aBW+GW7U5RkZC9o+CK8hXYbkGXgDPPQ7vPRuXqQ5TUYnOAG8C3Y0CZb9I2Z8nR5FVW6LLc8CEHDkIQ4/ApTkoeTCyGw4MbCGP8E0kcHX94BhvnN3fNwgmhasyBX+BHf42UNwAe/vjqwWuAz+kjIlWER9ECTdGHNoxzPEHD4BXJQyrrAR5REiHOG2MKa6te2PMFeDdxghrLJP7XufVvWNstxkc42HXdoC2+NIY8+2W0eiwSNrgZ0sLur48r1BhyyND0jlJ6URpSe+0PXiUiC+iLbqtP0nPSPpVUtAh8e+SXuqkdvUiGUnHJJ2RtNiEtCjpJ0mvSNrc7hvwH1vk6Tp8UkPPAAAAAElFTkSuQmCC"/>
+<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">Google Photos</text>
+<rect class="shine3" x="0" y="0" width="56" height="40" fill="url(#s3)" transform="skewX(-20)"/>
+</g>
+</svg>

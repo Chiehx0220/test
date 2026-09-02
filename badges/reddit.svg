@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="40" viewBox="0 0 111 40">
+<defs>
+<linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#FF4500"/>
+<stop offset="100%" stop-color="#8c2500"/>
+</linearGradient>
+<clipPath id="c5"><rect x="0" y="0" width="111" height="40" rx="20"/></clipPath>
+<linearGradient id="s5" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<style>
+@keyframes sweep5{from{transform:translateX(-111px)}to{transform:translateX(111px)}}
+.shine5{animation:sweep5 3.2s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#c5)">
+<rect x="0" y="0" width="111" height="40" fill="url(#g5)"/>
+<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
+<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEpElEQVR4nI2Va2xURRTHf3PvPrq7lBWlpW0aMCAgmIgxiAoiry0SRGIjFP1i4gdMrBJA4YNRiZEYiKCJFMQIUSSBlIfhaSLYggGET5ZQIlCEBlPaLostu6Xd570z5t67u7SlPE4ymcnMOf//zHmN4D6iZvME8AYwF8UYoCR71AlcBerR2COO0HAvDDEg8AxG4OZToBLBY6jcQT9Layh6bCKTz0U9Zx9IoELMR2MTGuXIfqB9FIE0oGVR3DbRx+IoNb3VtH7gi9GpRVCO+QBw/xB4fwNq/UmoXAZSCyDYoEJ8NeAL1Czm4WIPioJ7AlsioCOu0/RcFRPW7SCgC0d9WQXiXB14AZMVoo6v8y9QIYaj8cPDgO+PBai8UcZ3/9wiHIlgKicI6UFF5F2q8aV6hamWiStrugqdUtst95HLCZ11sWJ+LG9n7LB2mm+0c1Xz4m08RXnjUSsOOQIvJmvVHGYKNYuRaDQgCNqHRhZNzypnso4MBKjpHEzUXchnhdehK47h95EuHY23/SJ6KuPYWMMRy/pVF4KFaATt21ujfDz4/NByCTwF8NIi1AtzYcQ4KtMmbl1DuQRcu4TrzCFcJ3aC5oaxEyARh+sXckQCyTuW/0+o2Sg1u0DJA1uVTCaVlErJ5otKtl1TUqn8yEnvPdn2r6Nr2Vi2B7baWKoCpUJ0oCoIq2kouWZxX8N7AaqHOF+zWKmXsUmsLBpmRT89/sV86ucS6eaFv2n5pRYjmbwr4EYqRcu+3dw839inWq1Eyjw1OQ/iFJqA1JVzdGQgYzhRvn0jQseS1xm8bQXxw7v7gFjr7p3fU7j2LWIbP6GrtdXez5gmnaaDlTPQUETxgP/Ydnp+30fCdGKdDLdToq4QdLfibzrZpzysdaDlPI8MkxRf+5VkuM2+eVJC99H9+Oq3YWE6dSC4gsZEV/wWj2+pJjphEsniEnwjRyHnvYeMXMS94N27XOR5sxqZaIaho/GPGUfCkMiOmwzfUo0ejzoVpuixpjpgorWhxcIYTQ2kHp2DV9dxL9lEt2FQ/8dxIqd/pit6ywYfHBxCUUkJoVVH0NxujEySlCHRL59Fj4YdcMv5Jqet5S4kSwGf9XbfwRquPzkZn0fD68rg9XjY+fNP7N1VC1q28KVB5cIqpk+fRiaeImWYJI0kZQc2gso605oE24WyphAH0ZnnpAC0zf2Q1gUr8WiCApcgk0qwacO3HDtxyradMXUKS5Yux+vz265JSyjdu56yw+ucduHcvgkXk+xYqwqeAf5E4LdJTPjv+Sra5n9Esng4mibwuDS6Y1H7aoXBIbZLTKkoiLRQdugbis7UOq4ReYJFoo7dd9p1iA/QqckXQhrMYBHdz75G/OmZZEpHIQNBR7k7iifcjL/xOIUNh9BjkXzW2G3CYLOoozqX0nfSz/osdFbmSWS2+Vk38gXAOyhbNLch0eOc5wKaAzfZTydV4i+7TQ74Za5AYzWCAhugd/LniiH3H+ckRyDZjM5y8Rup3kV5l6gQ0xCsBqag2cU48PdpATv7FzD5QtSzq7/KgAQ2yUI8dFGB5G1gJjC0n8ptBKcR7MDkoKgjNhDO/+NzVPu6k0PuAAAAAElFTkSuQmCC"/>
+<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">Reddit</text>
+<rect class="shine5" x="0" y="0" width="37" height="40" fill="url(#s5)" transform="skewX(-20)"/>
+</g>
+</svg>

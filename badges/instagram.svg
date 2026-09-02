@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="40" viewBox="0 0 136 40">
+<defs>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#E1306C"/>
+<stop offset="100%" stop-color="#7b1a3b"/>
+</linearGradient>
+<clipPath id="c4"><rect x="0" y="0" width="136" height="40" rx="20"/></clipPath>
+<linearGradient id="s4" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+<stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<style>
+@keyframes sweep4{from{transform:translateX(-136px)}to{transform:translateX(136px)}}
+.shine4{animation:sweep4 3.2s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#c4)">
+<rect x="0" y="0" width="136" height="40" fill="url(#g4)"/>
+<circle cx="20" cy="20" r="14" fill="#ffffff" fill-opacity="0.15"/>
+<image x="8" y="8" width="24" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFSUlEQVR4nIWVeWwUZRjGf983M7s7XXqwLD0ArVQO/0CuAMrRYFD+AYIahKgIERGiRmMkqDGpiBzGi0QEU4MkRAIGhERBgycmiq5glZsKciiHQmmBnjvb3Zn5zDe7bQgUneTNJN+88zzv8bzvJ/iPZwWqXxRvmkFmkk37ABuvNIpPFHU5H05GkTvz8Lf0pnjvjTBEV4erUeURqArD/d1QPaI45AXWjo3CRmBjEsEA0m0W3k4Dd3GYvvv+l2AtaqoN7xVCnyge+XaSfCtFVKSxcQmjsACpBDID0tF/mfg4bRLnJcHgVTck2ICalwcrS4dh957rUTjKx4qDtBVCZJ0FKuusXw6IBg9R42CsbYR9bUDrW4KxL1xHsA01xYIt5Y8SufV9DyOsUMdcxEUXrnigvGtyF6juAnpaqNsi0K6wnjyFWHdBkywUTF7RSbALdbOE3bGhlPVNuHDax5/bQvjXVmRaR5XUtQb83C8yZ4ChUMPDuOv7BZ0LjUnA/vp2SE0UzNoVePWGRRVQVjLPRYZAzWkinGhEppuAZqAlZ61AB6GDqlC4Xw3AH2tjzjwAIQNvfrH2C0PT64qVYdPBqfBwHpDCR46y4IRHuOYSIgBrzZrt4U8tRY3tEWQgEk3IbRdQN4Xw744hjDTGuwcRx5vwRxZhiCZQ7aMhNcGM0DwdZCGRFjLxMsSZFMI73wmu+lq4GytRo0vAd7NlecZE/FyPOasG655v4M9W8JsRda2o8jywHUimBDhzTDg3OZCElYRICTRq4FNACqIu7kfTUHf0xKj6Abn1L8DCn1aBt2wk7obhWON2gNee9W9MwcB8MJ1cSdN3m3B0QNBAkQExFJSu+R9BU/0pQ1B39sGo+gJj+U9ANyCE8ZrOMIO3fBz+9GLkptosARpDV1ETaPNiEmpL4BDwuz7IMesMzqIqi8F1kZsTueZ29CWJ3HQw+KbGxa8SgpsbEE2ms8pgwvHsQTA/LogWMM6CMkFoUP005YA1QDgnVT3P5OSrCTJXEaRzwQot5jONWGeg4Ez20MxA2VnoU4c4nADTxH9kCFj/gHEJ0HYR/8H+wTfxY+1VmeVE0ElkYhI/eYJuyRHEIuArsF3odR7CYWTtVsT+mXhVj0Ekg/x8N7SF8CdV4i25D7HnKPKzRC56XRIFSpuOXo+Y1WZSVv8teYygwAcvhYp1h1KtqhS45zBXP4y7YD3ei0/gLZifDdCSiJoDmLPfhrYGPc7ZKS8KQyoDriawdTkTJjE2Y/MskZRNawP0KIYSAwwvKLVIH8d6ZwL+oHtR/SshbSL2HkJ+XQMZHwr10AqQBqqkABqawNE9KNCRrDf5ngM8xE5sNUX+XYN313zU4JGIc7u1IglK6TrIk5vgyKas+pI2xIsgbEN+KJh+NWQkqn85xprt2TIhj0F0uxQaojsvU0TSOLoG3DTujHWoQWOgZwj0dtBWBvTKWakDsfMQOw3xBtTkAbjrFkN7GrlmR9Bc8BYJXm3uXNdqGU+Txyp1+xwy46vBCCMuHwOnDuE2gqeyy9TrMIEyiiCvBFUxEFLtmAteQVbvAYqrBR8/dd2Foz7gTbrxPPFheLc8jh8bBaE4CDvY/x13TfDWiks70NyAPPILxtYPIVEPdX0+pSU5Q/BbpssrU33CQmyWEiISAMk8EGYQcSBvrUbdh1YFl12oS0IdcEWPSEk1hfnPiS9PaK+u7+SA5DvGE2EpkrEYyABYmy6NFogm0EOut4NW6UVqucASsZnN12J1SRCQHCZEiolIZqOYgE+8cxtokjZauEKCejbSwHbxRrBPrnv+BVh1LWv2oiFVAAAAAElFTkSuQmCC"/>
+<text x="42" y="25" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="700" fill="#ffffff">Instagram</text>
+<rect class="shine4" x="0" y="0" width="45" height="40" fill="url(#s4)" transform="skewX(-20)"/>
+</g>
+</svg>
