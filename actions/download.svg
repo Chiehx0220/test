@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="206.0" height="44" viewBox="0 0 206.0 44">
-<rect x="0" y="0" width="206.0" height="44" rx="16" fill="#4F378B"/>
-<text x="95.0" y="27.0" text-anchor="middle" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#EADDFF">⬇</text>
-<text x="113.0" y="27.0" text-anchor="middle" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#EADDFF">Download</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="202.0" height="44" viewBox="0 0 202.0 44">
+<rect x="0" y="0" width="202.0" height="44" rx="22.0" fill="#4F378B"/>
+<text x="93.0" y="27.0" text-anchor="middle" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#EADDFF">⬇</text>
+<text x="111.0" y="27.0" text-anchor="middle" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#EADDFF">Download</text>
 
 </svg>

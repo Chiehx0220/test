@@ -1,18 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="152" viewBox="0 0 420 152">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="136" viewBox="0 0 420 136">
 <defs>
-<clipPath id="iconclip0"><rect x="20" y="20" width="64" height="64" rx="16"/></clipPath>
+<clipPath id="cardclip0"><path d="M0,16 A16,16 0 0 1 16,0 L404,0 A16,16 0 0 1 420,16 L420,136 L0,136 Z"/></clipPath>
+<clipPath id="iconclip0"><rect x="20" y="18.0" width="56" height="56" rx="14"/></clipPath>
 </defs>
-<rect x="0" y="0" width="420" height="152" rx="16" fill="#211F26"/>
-<rect x="0.5" y="0.5" width="419" height="151" rx="16" fill="none" stroke="#49454F"/>
+<g clip-path="url(#cardclip0)">
+<rect x="0" y="0" width="420" height="92" fill="#211F26"/>
+<rect x="0" y="92" width="420" height="44" fill="#2B2930"/>
+</g>
+<path d="M0,16 A16,16 0 0 1 16,0 L404,0 A16,16 0 0 1 420,16 L420,136 L0,136 Z" fill="none" stroke="#49454F"/>
+<line x1="0" y1="92" x2="420" y2="92" stroke="#49454F"/>
 
-<rect x="20" y="20" width="64" height="64" rx="16" fill="#ffffff"/>
-<image x="20" y="20" width="64" height="64" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAChklEQVR4nLWVPWhTURiGn3ubNpXEn6ZiBUFBtLj4ixQdRKmTbXGxrZODipsOopM4OCk4ODgUqeLgIqUFqWB1UJEORRwKRTr4NymC2qZSe23Sn7xycs9N83PTBhpfOCTn3O973+98efNdh2UgaQdwCmgDmoHN9lES+AK8AvodxxldjieMeJuk+5ImtDJmJA1K2l8p+UlJXysgDhO6tBL5BUl/tTrcLkfeIWlW1cGVYvKtkr6rekhJOmK4HSvwADifVUulYGAIxj7Cj0lIpyG9CAsZkK3IZEVciNZANApNjbC3GTrboL4+qHsEaI1I2g502rvA5Vtw7zFQa5mcPNaCe+d9mjUPI2PQcyOIPWwEXKALWJ+NnUzCwGsgDqwBTDVRu1wrWmdXcF5vY2Mw8AYmp4IKjMpZk9WeK2oiCX9mQ6rNQMtOiBnidBkPujDt+RxLOO7af6iPqRmYz4Qkp+HaORjuhROHrMhiaZjJNRxLSBiBptzW8yAzH3IDYG4BDuyGoV4YvAO7thSJOH6uVyCQbex/RQT4DWzI7mJxcGsho9Jb1EVg9D1cvwvP39rUmrwA+bnxeInAZ+BgdtcQg1oX0oEFA0Th5kMY/2ZbYNwTApPbUCDgmRa9zG03JmCtsVyxgAvvPoE3V57cOG1dDBoT+YcjRqAPMN70H3a1AjP2KGUdY5ZxlzHAnF3BecrGetB5DBob8gUeOZJMs58CHblR0f/MHxU/k5WNik0J2NMM3WZUmA5k8QFoyX6TtE+Sp+qiu6CDki5Wkbwn9GcyL4sqkD+RZIZWOCRdXcWLp0dSOZsViByVNCxpsULicUmnVyQuEqmT1C6pT9KvENJpSS8knZHkj/sQ/APB0IdeuXSlQgAAAABJRU5ErkJggg==" clip-path="url(#iconclip0)"/>
+<rect x="20" y="18.0" width="56" height="56" rx="14" fill="#ffffff"/>
+<image x="20" y="18.0" width="56" height="56" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAChklEQVR4nLWVPWhTURiGn3ubNpXEn6ZiBUFBtLj4ixQdRKmTbXGxrZODipsOopM4OCk4ODgUqeLgIqUFqWB1UJEORRwKRTr4NymC2qZSe23Sn7xycs9N83PTBhpfOCTn3O973+98efNdh2UgaQdwCmgDmoHN9lES+AK8AvodxxldjieMeJuk+5ImtDJmJA1K2l8p+UlJXysgDhO6tBL5BUl/tTrcLkfeIWlW1cGVYvKtkr6rekhJOmK4HSvwADifVUulYGAIxj7Cj0lIpyG9CAsZkK3IZEVciNZANApNjbC3GTrboL4+qHsEaI1I2g502rvA5Vtw7zFQa5mcPNaCe+d9mjUPI2PQcyOIPWwEXKALWJ+NnUzCwGsgDqwBTDVRu1wrWmdXcF5vY2Mw8AYmp4IKjMpZk9WeK2oiCX9mQ6rNQMtOiBnidBkPujDt+RxLOO7af6iPqRmYz4Qkp+HaORjuhROHrMhiaZjJNRxLSBiBptzW8yAzH3IDYG4BDuyGoV4YvAO7thSJOH6uVyCQbex/RQT4DWzI7mJxcGsho9Jb1EVg9D1cvwvP39rUmrwA+bnxeInAZ+BgdtcQg1oX0oEFA0Th5kMY/2ZbYNwTApPbUCDgmRa9zG03JmCtsVyxgAvvPoE3V57cOG1dDBoT+YcjRqAPMN70H3a1AjP2KGUdY5ZxlzHAnF3BecrGetB5DBob8gUeOZJMs58CHblR0f/MHxU/k5WNik0J2NMM3WZUmA5k8QFoyX6TtE+Sp+qiu6CDki5Wkbwn9GcyL4sqkD+RZIZWOCRdXcWLp0dSOZsViByVNCxpsULicUmnVyQuEqmT1C6pT9KvENJpSS8knZHkj/sQ/APB0IdeuXSlQgAAAABJRU5ErkJggg==" clip-path="url(#iconclip0)"/>
 
-<text x="100" y="44" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#E6E0E9">YouTube</text>
-<rect x="100" y="54" width="55.599999999999994" height="20" rx="10" fill="none" stroke="#D0BCFF" stroke-opacity="0.5"/>
-<text x="108" y="68" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#D0BCFF">Morphe</text>
-<text x="100" y="82" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#CAC4D0">com.google.android.youtube</text>
+<text x="92" y="42.0" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#E6E0E9">YouTube</text>
+<text x="92" y="62.0" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#CAC4D0">com.google.android.youtube</text>
 
-<rect x="20" y="98" width="189.0" height="34" rx="17.0" fill="none" stroke="#49454F"/>
-<text x="32" y="119.0" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#CAC4D0">Media &amp; Entertainment</text>
+<text x="20" y="118.5" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#D0BCFF">Patches by Morphe</text>
 </svg>
