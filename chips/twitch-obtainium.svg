@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="115" height="30" viewBox="0 0 115 30">
-<rect x="0.5" y="0.5" width="114" height="29" rx="15.0" fill="#14161b" stroke="#282b33"/>
-<text x="16" y="19.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#e7e9ec">➕</text>
-<text x="34" y="19.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#e7e9ec">Obtainium</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="32" viewBox="0 0 98 32">
+<rect x="0" y="0" width="98" height="32" rx="16.0" fill="#211F26"/>
+
+<text x="16" y="21.0" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0.1" fill="#E6E0E9">Obtainium</text>
+<rect x="0.5" y="0.5" width="97" height="31" rx="16.0" fill="none" stroke="#49454F" stroke-width="1"/>
 </svg>
