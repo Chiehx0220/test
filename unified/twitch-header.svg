@@ -5,7 +5,7 @@
 <stop offset="0%" stop-color="#9146FF" stop-opacity="0.35"/>
 <stop offset="100%" stop-color="#9146FF" stop-opacity="0"/>
 </radialGradient>
-<clipPath id="shape1"><path d="M16,0 L304,0 A16,16 0 0 1 320,16 L320,92 L0,92 L0,16 A16,16 0 0 1 16,0 Z"/></clipPath>
+<clipPath id="shape1"><rect x="0" y="0" width="320" height="92" rx="16" ry="16"/><rect x="304" y="76" width="16" height="16"/><rect x="0" y="76" width="16" height="16"/></clipPath>
 </defs>
 <g clip-path="url(#shape1)">
 <rect x="0" y="0" width="320" height="92" fill="#1B1E24"/>
@@ -14,5 +14,4 @@
 <text x="92" y="43.0" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F1F2F4">Twitch</text>
 <text x="92" y="64.0" font-family="'Roboto','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#9AA1AC">tv.twitch.android.app</text>
 </g>
-<path d="M16,0 L304,0 A16,16 0 0 1 320,16 L320,92 L0,92 L0,16 A16,16 0 0 1 16,0 Z" fill="none" stroke="#2E333C"/>
 </svg>
