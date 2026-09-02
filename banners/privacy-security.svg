@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="108" viewBox="0 0 860 108">
+<defs>
+<linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0c0e12"/>
+<stop offset="100%" stop-color="#15181f"/>
+</linearGradient>
+<radialGradient id="glow2" cx="0%" cy="50%" r="75%">
+<stop offset="0%" stop-color="#7c3aed" stop-opacity="0.28"/>
+<stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="round2"><rect width="860" height="108" rx="16"/></clipPath>
+<style>
+@keyframes bob2{0%,100%{transform:translateY(0px)}50%{transform:translateY(-4px)}}
+.float2{animation:bob2 2.8s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#round2)">
+<rect width="860" height="108" fill="url(#bg2)"/>
+<rect width="860" height="108" fill="url(#glow2)"/>
+<rect x="0" y="0" width="5" height="108" fill="#7c3aed"/>
+<text x="40" y="52" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#f3f4f6">🔒 Privacy & Security</text>
+<text x="40" y="76" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8f98" letter-spacing="0.5">2 apps in this category</text>
+<g class="float2" style="animation-delay:0.0s"><circle cx="764" cy="54.0" r="22" fill="#14171d" stroke="#7c3aed" stroke-opacity="0.35"/><clipPath id="ic2_0"><circle cx="764" cy="54.0" r="18"/></clipPath><image x="746" y="36.0" width="36" height="36" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEbklEQVR4nIVVbWxTVRh+3tPb29LiZrfb0oHZcIy6GBIIEmSZQ+0G6iBLGJtRNMYlGhMl4kTwIxsDCYm6mKhIUH4Qs2jC5h8/4g8SFw3TJf4ZbiND5nBOM4L20m6yfqy99x5zbj9o1zt9k6btec95nvd93ve8h/Af5vV6awDsBdDMOQ8QkT/jCgO4yjkfBPC5qqojy2GQ1aLf76/Sdb0LwB4iKuecWx8mAuc8CmCQc35UVdWL/0tQXl7ewhg7RUR35AOL36lkEnbZDiK2HNHroVDoZL6vYKeiKM8yxs4BKADXNA3r1t+N9sc7IEkydF0rIMjsdRPRB4qivGNJoCjKbrEBwIpiKYDowk083fE8unp64XKVwDD0IskEEWPskM/nO1hA4PF4KhljZwA4i05ljHMDicU4ttU1YP9Lr0EEbVUbscY5P6EoSkOOQJKkIwAqsIylUikEajfA7V6JeDyG7dubsGnzvdBSKcv9ROQA8FZNTY2D+Xy+agBty3WKrmu4raQUra37wA3DjFCSJNyzpQ6GYYiYLbMgorq5ubkg45y3E1GpNbhuFvVAZzfWB2rNYmcBXC6XCW4YPENUlIWwDiHRLitwUUS7LOPlw8fwwIM7kUwuFvhv3FBhcI7nXjiMyqrqHHl+FpzzRpFBYKk86f+E/S++gWDwISwuJsx1xtJNJyL+5fI41lYH0NLShseeeMay4ERUxoho1VJHMpnEI7vasPPh3Ugk4uaazWZDOBLOERgc2NO6D4wRtm6tx53rAtC04qIXXsnM4ds95djb/mQubVl24Pz5b9D3yceQZdmU7+ChHjTtaEYikYDb7cbGjVuga7olwVz+gojirtoN8PsroGsaJMmOqakr+OjDtzH75wx0PS1FaUlJTjJxR6rW1qRvpAXBVIH+Bscq/5rcYcYYvv5yALHYAiYnL2FoaBBO5woz06zu4kt2Os2ZtKSWUVHkbwschJzuYj0ai2JiYgyyXRb64eR7J/DD0Hewi//ZKBnh7+vXCto1gzksitxvGEYa0SymhKu/XjZvrIg+kVhEdCEGYgRmsyEWXcC7vUcxMzNt7hVAqZSGiyM/wWYrLCljrI+FQqFR8XBksxC3dPq3SVy4MAiHw4mVbhfKyjwwdCPnn58L4/fpKbOznE4nhn/8HpfGRmC32/PluaJp2leCkjPGujnnsTxmnD3zPkZHR+DxlKG+oRGpTAsK3R0OB/wVq03w8fExnD7VmxkZlP8+HAmHw/+YOYVCoZ8BvJrNQkQ2Px/Bse5ODAx8imBTMzZt3mZ2mPjU3deI1Wsq0X+uDz1dBxAJq+aZPO1Pq6o6kCnpLROPhZjn2e4Q/a5pugkmDv51fdb8FqMhHo/j2uwfkCQbGLsFbhjGF6qqPiqGcBGBMK/X+wqA40TkzBKJoScCywKlXzTKRZ0HLiLvBJAbXJaPvqIo9xPRcQD1RCRa2Wpbvk1wzt9UVbV/qcOSIGOyoig7iOgpAEHBu8R/k3M+TESfiW6JRCLzViD/AvpuBoUjwcl9AAAAAElFTkSuQmCC" clip-path="url(#ic2_0)"/></g><g class="float2" style="animation-delay:0.35s"><circle cx="820" cy="54.0" r="22" fill="#14171d" stroke="#7c3aed" stroke-opacity="0.35"/><clipPath id="ic2_1"><circle cx="820" cy="54.0" r="18"/></clipPath><image x="802" y="36.0" width="36" height="36" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACsklEQVR4nK2VT0hUURjFf88ZHf9m2aLcFES0KaIgggQJahMpbSpctWjRrlYF7Vq0iGjZwkVBUDsrMgtBKJUSRZDKwDLB0DBN06x01EYdT3zvPjXHpyPp2bx3/53zfefe716PVSBpN3AaOAnsAbYHQ6PAZ6AeeOR53tvVeMKId0q6K2lE6RGXVCPp4FrJT0nqWwNxmNCldOQXJE1qfbi1Enm5pCltDC6nku+QNJCYkno//T9rd4c0aUZJfySVGndGoHENKJ4Yh9YX0N4Mc0nWjGQSWuqg8QlMxv2uGHBTUiwqaRdwxnojUcjNh55OmEnA/hKIZa9OPhWHplr40gXZeZAxHzIcAY5Z8yxQ6Ecy60QKCmF0CNqbID62MvnXbrh3A/p7ICcfMmPgeQvD9nfeBMrme8yitgaYnoaCIkgk4GMb/BxZTt7RCrevQn8v5BY48szMJQKG4xlBhfqw9Ea+wasal8GmLZARgd5OGB5YXNX0HO5ch/ExZ2FmFmRluW+KQFEU2PZvj1kU/w31j6G0DPYedhv+YxCmE9BaBw3V4EUgEnGERmyIRpcJYALLYFHPzkDDU2dbyQk7ylB7H941QzSwwoQta19Arp8QgV/A5lQRz8yTO7a9XY5sqH8xWoOCeWaPguzDMugGDoVlYpNt0WCfC8wsCJsTDUR9gcVjapiw5kvSIBJxti2DAotiTiRkk1tMoMrqxZ8v0Fw6uaWwiOdPkb83S4cfWNLvg4ej3AosLw9Gvq8QcQqsMJMzzrq5OcjJc9kE6AKe+YKSDgDNQK6d+TeNbmHqhqXCNn5rMeyzS8GDwiJX0QEqPM97uNCSdFEbh8rQiOyx2ADyaklWEeGQdGUdD0+lXdGrG+tEjkp6LSm5RuIPkirSEqeIZEkqk1QlaTiEdExSnaRzkvzrPgx/AatOODqRnFFSAAAAAElFTkSuQmCC" clip-path="url(#ic2_1)"/></g>
+</g>
+<rect x="0.5" y="0.5" width="859" height="107" rx="16" fill="none" stroke="#262b34"/>
+</svg>
