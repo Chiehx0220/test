@@ -1,23 +1,18 @@
-# Obtainium button color options
+# v15 — Obtainium in soft violet (option B)
 
-Download button stays the fixed neutral dark. Comparing Obtainium color choices:
+Same as v14, Obtainium button color changed from #4500FF to #7C5CBF.
 
-**a — current (vivid blue-violet, Obtainium's own brand color)**
+<table align="center">
+<tr>
+<td align="center">
 
-<a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/a-current-download.svg" alt="Download"></a><a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/a-current-obtainium.svg" alt="Obtainium"></a>
+<a href="https://play.google.com/store/apps/details?id=tv.twitch.android.app"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-header.svg" alt="Twitch"></a><br><a href="https://github.com/RookieEnough/De-Vanced"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-repo.svg" alt="repo"></a><br><a href="https://github.com/Chiehx0220/Morphify/releases?q=Twitch&expanded=true"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-download.svg" alt="Download"></a><a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/tv.twitch.android.app"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-obtainium.svg" alt="Obtainium"></a>
 
-**b — softer violet (toned down to fit the cream palette better)**
+</td>
+<td align="center">
 
-<a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/b-softviolet-download.svg" alt="Download"></a><a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/b-softviolet-obtainium.svg" alt="Obtainium"></a>
+<a href="https://play.google.com/store/apps/details?id=com.google.android.youtube"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-header.svg" alt="YouTube"></a><br><a href="https://github.com/andrewliang25/morphe-patches"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-repo.svg" alt="repo"></a><br><a href="https://github.com/Chiehx0220/Morphify/releases?q=YouTube&expanded=true"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-download.svg" alt="Download"></a><a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/app.morphe.android.youtube"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-obtainium.svg" alt="Obtainium"></a>
 
-**c — terracotta (warm, matches the cream/earthy tone family)**
-
-<a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/c-terracotta-download.svg" alt="Download"></a><a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/c-terracotta-obtainium.svg" alt="Obtainium"></a>
-
-**d — forest green (fresh contrast, distinct from both download and cream)**
-
-<a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/d-forest-download.svg" alt="Download"></a><a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/d-forest-obtainium.svg" alt="Obtainium"></a>
-
-**e — burgundy (deep warm red, cohesive with cream, still distinct from terracotta)**
-
-<a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/e-burgundy-download.svg" alt="Download"></a><a href="#"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/obtcolors/e-burgundy-obtainium.svg" alt="Obtainium"></a>
+</td>
+</tr>
+</table>
