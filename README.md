@@ -44,6 +44,20 @@ Each row = 2 cards side by side at that width, testing both (a) do the two cards
 </td></tr>
 </table>
 
+## w127
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w127-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w127-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w127-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w127-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w127-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w127-obtainium.svg">
+
+</td></tr>
+</table>
+
 ## w128
 
 <table align="center">
