@@ -2,7 +2,7 @@
 
 Kept all 4 original sections (header+subtitle / repo row / 2 text buttons), just scaled to 160px and truncated whatever doesn't fit (package name, repo path). Compare against v1 below (icon-only, subtitle dropped entirely).
 
-<table align="center">
+<table align="center" cellpadding="0" cellspacing="0" border="0">
 <tr>
 <td align="center">
 
@@ -21,7 +21,7 @@ Kept all 4 original sections (header+subtitle / repo row / 2 text buttons), just
 
 # v1 — icon-only (for comparison)
 
-<table align="center">
+<table align="center" cellpadding="0" cellspacing="0" border="0">
 <tr>
 <td align="center">
 
