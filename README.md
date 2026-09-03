@@ -1,18 +1,101 @@
-# v15 — Obtainium in soft violet (option B)
+# width probe: 120 / 124 / 126 / 128 / 130 / 132 / 136
 
-Same as v14, Obtainium button color changed from #4500FF to #7C5CBF.
+Each row = 2 cards side by side at that width, testing both (a) do the two cards still fit side by side, and (b) does each card's own Download+Obtainium row still sit on one line.
+
+## w120
 
 <table align="center">
-<tr>
-<td align="center">
+<tr><td align="center">
 
-<a href="https://play.google.com/store/apps/details?id=tv.twitch.android.app"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-header.svg" alt="Twitch"></a><br><a href="https://github.com/RookieEnough/De-Vanced"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-repo.svg" alt="repo"></a><br><a href="https://github.com/Chiehx0220/Morphify/releases?q=Twitch&expanded=true"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-download.svg" alt="Download"></a><a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/tv.twitch.android.app"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/twitch-obtainium.svg" alt="Obtainium"></a>
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w120-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w120-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w120-obtainium.svg">
 
-</td>
-<td align="center">
+</td><td align="center">
 
-<a href="https://play.google.com/store/apps/details?id=com.google.android.youtube"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-header.svg" alt="YouTube"></a><br><a href="https://github.com/andrewliang25/morphe-patches"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-repo.svg" alt="repo"></a><br><a href="https://github.com/Chiehx0220/Morphify/releases?q=YouTube&expanded=true"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-download.svg" alt="Download"></a><a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/app.morphe.android.youtube"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/compact15/youtube-obtainium.svg" alt="Obtainium"></a>
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w120-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w120-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w120-obtainium.svg">
 
-</td>
-</tr>
+</td></tr>
+</table>
+
+## w124
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w124-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w124-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w124-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w124-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w124-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w124-obtainium.svg">
+
+</td></tr>
+</table>
+
+## w126
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w126-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w126-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w126-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w126-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w126-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w126-obtainium.svg">
+
+</td></tr>
+</table>
+
+## w128
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w128-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w128-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w128-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w128-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w128-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w128-obtainium.svg">
+
+</td></tr>
+</table>
+
+## w130
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w130-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w130-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w130-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w130-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w130-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w130-obtainium.svg">
+
+</td></tr>
+</table>
+
+## w132
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w132-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w132-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w132-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w132-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w132-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w132-obtainium.svg">
+
+</td></tr>
+</table>
+
+## w136
+
+<table align="center">
+<tr><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w136-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w136-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w136-obtainium.svg">
+
+</td><td align="center">
+
+<img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w136-header.svg"><br><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w136-download.svg"><img align="bottom" src="https://raw.githubusercontent.com/Chiehx0220/test/main/widthprobe/w136-obtainium.svg">
+
+</td></tr>
 </table>
